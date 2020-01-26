@@ -1,0 +1,36 @@
+{
+  "name": "puppeteer-tinypng",
+  "version": "1.0.0",
+  "description": "A tool which helps you compress .png or .jp(e)g files on TinyPNG via Puppeteer (Headless Chrome).",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "tinypng",
+    "headless",
+    "chrome",
+    "compress",
+    "jpg",
+    "png"
+  ],
+  "author": "mozwell",
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "cli-progress": "^3.6.0",
+    "inquirer": "^7.0.4",
+    "lodash": "^4.17.15",
+    "make-dir": "^3.0.0",
+    "ora": "^4.0.3",
+    "puppeteer": "1.3.0"
+  },
+  "devDependencies": {}
+}
